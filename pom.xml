@@ -11,7 +11,7 @@
     <properties>
         <!-- https://maven.apache.org/general.html#encoding-warning -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.11</java.version>
+        <java.version>1.8</java.version>
     </properties>
 
     <dependencies>
@@ -54,7 +54,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.0</version>
                 <configuration>
-                    <release>11</release>  <!--or <release>10</release>-->
+                    <release>8</release>  <!--or <release>10</release>-->
                 </configuration>
             </plugin>
             <plugin>
